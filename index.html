@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>島中星輝｜From Thought to Action.</title>
+  <meta name="description" content="人の想いを、人が動く形へ。対話を通して考えを整理し、前へ進む力へとつなぐ島中星輝のLiving Brand。">
+  <meta name="theme-color" content="#f8f7f4">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="島中星輝｜From Thought to Action.">
+  <meta property="og:description" content="人の想いを、人が動く形へ。島中星輝のLiving Brand。">
+  <style>
+    :root{--bg:#f8f7f4;--surface:#f1f0ec;--text:#2c2c2c;--muted:#777771;--accent:#4f6d67;--border:#dcdcd6;--wide:1200px;--copy:760px;--ease:cubic-bezier(.22,1,.36,1)}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--bg);color:var(--text);font-family:"Noto Sans JP",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.85;letter-spacing:.03em;overflow-x:hidden}
+    img{display:block;max-width:100%;height:auto} a{color:inherit;text-decoration:none} button,a{touch-action:manipulation} :focus-visible{outline:3px solid rgba(79,109,103,.28);outline-offset:4px}
+    .shell{width:min(calc(100% - 48px),var(--wide));margin-inline:auto}.copy{width:min(100%,var(--copy));margin-inline:auto}.section{padding-block:clamp(96px,14vw,180px)}.section--large{padding-block:clamp(140px,19vw,260px)}
+    .eyebrow{font-family:Inter,system-ui,sans-serif;font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+    .display{font-size:clamp(2.45rem,6vw,5.4rem);line-height:1.25;font-weight:500;letter-spacing:.01em;margin:0}.lead{font-size:clamp(1.55rem,3.2vw,3rem);line-height:1.65;font-weight:400;margin:0}.body-lg{font-size:clamp(1.08rem,1.5vw,1.25rem)}
+    .hero{min-height:100svh;display:grid;place-items:center;position:relative;padding:72px 24px 56px}.hero__inner{width:min(100%,1100px);display:grid;grid-template-columns:minmax(0,.88fr) minmax(320px,1.12fr);gap:clamp(36px,7vw,96px);align-items:center}.hero__name{font-family:Inter,system-ui,sans-serif;font-size:clamp(1rem,1.5vw,1.25rem);letter-spacing:.12em;font-weight:500;margin:0 0 28px}.hero__copy{font-size:clamp(2.2rem,5vw,5rem);line-height:1.45;font-weight:400;margin:0}.hero__media{aspect-ratio:4/5;overflow:hidden;border-radius:clamp(18px,2vw,28px);background:var(--surface)}.hero__media img{width:100%;height:100%;object-fit:cover;object-position:50% 35%;filter:saturate(.94) contrast(.98)}.scroll{position:absolute;left:50%;bottom:20px;transform:translateX(-50%);font-family:Inter,sans-serif;font-size:.7rem;letter-spacing:.14em;color:var(--muted);display:flex;flex-direction:column;align-items:center;gap:8px}.scroll::after{content:"";width:1px;height:32px;background:var(--muted);animation:float 2s ease-in-out infinite}@keyframes float{50%{transform:translateY(6px);opacity:.45}}
+    .text-scene{min-height:78svh;display:grid;place-items:center;text-align:center}.text-scene .lead{max-width:14em}.pause{height:clamp(80px,14vw,190px)}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:clamp(40px,8vw,110px);align-items:center}.photo{overflow:hidden;border-radius:clamp(16px,2vw,28px);background:var(--surface)}.photo img{width:100%;height:100%;object-fit:cover;filter:saturate(.94) contrast(.98)}.photo--conversation{aspect-ratio:16/10}.photo--lecture{aspect-ratio:4/5}.photo--conversation img{object-position:center 45%}.photo--lecture img{object-position:center center}
+    .translation-lines{display:grid;gap:clamp(56px,9vw,120px)}.activity-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:clamp(70px,10vw,130px)}.activity-mini{padding:28px 24px;border-top:1px solid var(--border)}.activity-mini h3{font-size:.92rem;margin:0 0 12px;font-weight:500}.activity-mini p{font-size:clamp(1.2rem,2vw,1.75rem);line-height:1.55;margin:0}
+    .bridge-title{max-width:15em;margin:0 auto clamp(64px,9vw,120px);text-align:center}.bridge-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.card{background:var(--surface);border:1px solid var(--border);border-radius:24px;padding:clamp(28px,4vw,56px);transition:.35s var(--ease);display:flex;flex-direction:column;min-height:260px}.card:hover{transform:translateY(-3px);border-color:var(--accent);background:#f5f4f0}.card--book{grid-column:1/-1;display:grid;grid-template-columns:minmax(170px,280px) 1fr;gap:clamp(28px,6vw,72px);align-items:center;min-height:420px}.book-cover{max-height:360px;width:auto;margin-inline:auto;box-shadow:0 18px 50px rgba(0,0,0,.08)}.card__label{font-family:Inter,sans-serif;font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:auto}.card__copy{font-size:clamp(1.45rem,2.6vw,2.25rem);line-height:1.55;margin:32px 0 16px}.card__desc{color:var(--muted);margin:0}.card__arrow{margin-top:28px;color:var(--accent)}
+    .changes{display:grid;gap:clamp(110px,16vw,220px)}.change{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(36px,8vw,100px);align-items:center}.change:nth-child(even){grid-template-columns:1.1fr .9fr}.change:nth-child(even) .change__text{order:2}.change__text .lead{font-size:clamp(1.6rem,3vw,2.8rem)}.change__after{margin-top:44px;color:var(--muted);font-size:clamp(1.05rem,1.6vw,1.25rem)}.change .photo{aspect-ratio:4/3}
+    .cta{text-align:center;min-height:90svh;display:grid;place-items:center}.cta__inner{max-width:800px}.cta__lines{display:grid;gap:54px}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:0 28px;border:1px solid var(--accent);border-radius:999px;color:var(--accent);margin-top:60px;transition:.3s var(--ease)}.btn:hover{background:var(--accent);color:var(--bg)}.sub-link{display:block;margin-top:22px;font-size:.86rem;color:var(--muted);text-decoration:underline;text-underline-offset:4px}
+    footer{border-top:1px solid var(--border);padding:56px 24px 44px}.footer__inner{width:min(100%,var(--wide));margin:auto;display:flex;justify-content:space-between;gap:32px;align-items:flex-end}.footer__brand p{margin:0}.footer__name{font-family:Inter,sans-serif;letter-spacing:.1em}.footer__tag{color:var(--muted);font-size:.9rem}.footer__links{display:flex;gap:18px;flex-wrap:wrap;font-size:.82rem;color:var(--muted)}
+    [data-reveal]{opacity:0;transform:translateY(20px);transition:opacity 1s var(--ease),transform 1s var(--ease)}[data-reveal].is-visible{opacity:1;transform:none}
+    @media(max-width:800px){.shell{width:min(calc(100% - 36px),var(--wide))}.hero{padding:78px 18px 50px}.hero__inner{grid-template-columns:1fr;gap:34px}.hero__copy{font-size:clamp(2rem,10vw,3.25rem)}.hero__media{aspect-ratio:4/5}.split,.change,.change:nth-child(even){grid-template-columns:1fr}.change:nth-child(even) .change__text{order:0}.activity-strip{grid-template-columns:1fr}.bridge-grid{grid-template-columns:1fr}.card--book{grid-column:auto;grid-template-columns:1fr}.card{min-height:220px}.footer__inner{display:block}.footer__links{margin-top:28px}.text-scene{min-height:65svh}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}[data-reveal]{opacity:1;transform:none}}
+
+    /* Save experience */
+    .save-fab{position:fixed;right:clamp(16px,2.4vw,30px);bottom:clamp(16px,2.4vw,30px);z-index:40;width:60px;height:60px;border:1px solid var(--accent);border-radius:50%;background:rgba(248,247,244,.94);color:var(--accent);font-family:Inter,system-ui,sans-serif;font-size:.66rem;font-weight:500;letter-spacing:.1em;display:grid;place-items:center;box-shadow:0 12px 34px rgba(44,44,44,.10);cursor:pointer;opacity:0;visibility:hidden;transform:translateY(10px);transition:opacity .35s var(--ease),transform .35s var(--ease),visibility .35s,background .25s ease,color .25s ease}
+    .save-fab.is-visible{opacity:1;visibility:visible;transform:none}.save-fab:hover{background:var(--accent);color:var(--bg)}
+    .save-overlay{position:fixed;inset:0;z-index:60;display:grid;place-items:center;padding:24px;background:rgba(44,44,44,.38);opacity:0;visibility:hidden;transition:opacity .25s ease,visibility .25s ease}.save-overlay.is-open{opacity:1;visibility:visible}
+    .save-modal{width:min(100%,560px);max-height:min(84svh,760px);overflow:auto;background:var(--bg);border:1px solid var(--border);border-radius:24px;padding:clamp(28px,5vw,48px);box-shadow:0 24px 70px rgba(0,0,0,.16);transform:scale(.97);transition:transform .25s var(--ease);position:relative}.save-overlay.is-open .save-modal{transform:scale(1)}
+    .save-modal__close{position:absolute;top:18px;right:18px;width:40px;height:40px;border:1px solid var(--border);border-radius:50%;background:transparent;color:var(--text);font-size:1.2rem;cursor:pointer}.save-modal__title{margin:0 52px 8px 0;font-size:clamp(1.35rem,3vw,1.75rem);font-weight:500}.save-modal__intro{margin:0 0 28px;color:var(--muted);font-size:.95rem}
+    .save-actions{display:grid;gap:12px}.save-action{width:100%;display:grid;grid-template-columns:42px 1fr auto;gap:14px;align-items:center;text-align:left;padding:16px;border:1px solid var(--border);border-radius:16px;background:var(--surface);color:var(--text);font:inherit;cursor:pointer;transition:.25s ease}.save-action:hover{border-color:var(--accent);background:#f5f4f0}.save-action__icon{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;background:var(--bg);color:var(--accent);font-size:1.05rem}.save-action__label{font-weight:500}.save-action__note{display:block;color:var(--muted);font-size:.78rem;margin-top:2px}.save-action__arrow{color:var(--accent)}
+    .save-help{display:none;margin-top:18px;padding:18px;border-left:2px solid var(--accent);background:var(--surface);font-size:.9rem;color:var(--muted)}.save-help.is-visible{display:block}.save-toast{position:fixed;left:50%;bottom:28px;z-index:80;transform:translate(-50%,16px);padding:12px 18px;border-radius:999px;background:var(--text);color:var(--bg);font-size:.85rem;opacity:0;visibility:hidden;transition:.3s var(--ease)}.save-toast.is-visible{opacity:1;visibility:visible;transform:translate(-50%,0)}
+    body.modal-open{overflow:hidden}
+    @media(max-width:800px){.save-fab{width:54px;height:54px;font-size:.61rem}.save-overlay{padding:16px}.save-modal{border-radius:20px;padding:28px 20px}.save-action{grid-template-columns:38px 1fr auto;padding:14px}.save-action__icon{width:38px;height:38px}}
+    @media print{.save-fab,.save-overlay,.save-toast,.scroll{display:none!important}body{background:#fff;color:#000}.section,.section--large{padding-block:64px}.hero{min-height:auto}.card,.photo{break-inside:avoid}}
+
+  
+  /* GitHub direct-upload patch: Change 02 intentionally uses no photo. */
+  .change--text-only{
+    grid-template-columns:minmax(0, 760px);
+    justify-content:center;
+  }
+  .change--text-only .change__text{
+    width:100%;
+  }
+</style>
+</head>
+<body>
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__inner">
+        <div data-reveal>
+          <p class="hero__name">SEIKI SHIMANAKA</p>
+          <h1 id="hero-title" class="hero__copy">人の想いを、<br>人が動く形へ。</h1>
+        </div>
+        <figure class="hero__media" data-reveal>
+          <img src="ヒーロートーク.png" alt="マイクを持ち穏やかに語る島中星輝" width="517" height="585">
+        </figure>
+      </div>
+      <a class="scroll" href="#empathy" aria-label="次のセクションへ移動">SCROLL</a>
+    </section>
+
+    <div class="pause" aria-hidden="true"></div>
+
+    <section id="empathy" class="section--large text-scene" aria-labelledby="empathy-title">
+      <div class="copy" data-reveal>
+        <h2 id="empathy-title" class="lead">想いはある。<br><br>でも、<br>動けない。</h2>
+        <p class="body-lg" style="margin-top:72px">そんな日もある。</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="conversation-title">
+      <div class="shell split">
+        <figure class="photo photo--conversation" data-reveal>
+          <img src="会話.png" alt="机を囲み事業者と対話する島中星輝" width="761" height="531" loading="lazy">
+        </figure>
+        <div data-reveal>
+          <p class="eyebrow">Conversation</p>
+          <h2 id="conversation-title" class="lead">話しているうちに、<br><br>考えていたことが、<br><br>少しずつ整理されていく。</h2>
+        </div>
+      </div>
+      <div class="pause" aria-hidden="true"></div>
+    </section>
+
+    <section class="section--large" aria-labelledby="translation-title">
+      <div class="copy translation-lines">
+        <h2 id="translation-title" class="display" data-reveal>人の想いを、<br>人が動く形へ翻訳する。</h2>
+        <p class="lead" data-reveal>それは、<br>言葉を変えることではありません。</p>
+        <p class="lead" data-reveal>その人の中にある想いを、<br>伝わる形へ整えていくこと。</p>
+      </div>
+      <div class="shell split" style="margin-top:clamp(90px,14vw,180px)">
+        <figure class="photo photo--lecture" data-reveal>
+          <img src="講義.png" alt="地域づくりの場で講演する島中星輝" width="490" height="614" loading="lazy">
+        </figure>
+        <div class="activity-strip" data-reveal>
+          <article class="activity-mini"><h3>株式会社BRING</h3><p>想いを、<br>仕組みにする。</p></article>
+          <article class="activity-mini"><h3>宮崎県よろず支援拠点</h3><p>想いを、<br>動き出す力へ。</p></article>
+          <article class="activity-mini"><h3>Book</h3><p>想いを、<br>言葉にする。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="bridge-title">
+      <div class="shell">
+        <h2 id="bridge-title" class="display bridge-title" data-reveal>想いは、<br>いろいろな形で続いています。</h2>
+        <div class="bridge-grid">
+          <a class="card card--book" href="https://www.amazon.co.jp/dp/B0GVTHNKLZ" target="_blank" rel="noopener noreferrer" data-reveal>
+            <img class="book-cover" src="本の表紙.png" alt="書籍『共鳴のブリッジ戦略』表紙" width="344" height="487" loading="lazy">
+            <div><span class="card__label">Book</span><p class="card__copy">想いを、<br>言葉にする。</p><p class="card__desc">『共鳴のブリッジ戦略』</p><span class="card__arrow">Amazonで見る ↗</span></div>
+          </a>
+          <a class="card" href="https://shimanakaseiki.com/about/" target="_blank" rel="noopener noreferrer" data-reveal><span class="card__label">株式会社BRING</span><p class="card__copy">想いを、<br>仕組みにする。</p><p class="card__desc">企業や地域の想いを、形にする仕事。</p><span class="card__arrow">Webサイトへ ↗</span></a>
+          <a class="card" href="https://yorozu-miyazaki.go.jp/coordinator/147.html" target="_blank" rel="noopener noreferrer" data-reveal><span class="card__label">宮崎県よろず支援拠点</span><p class="card__copy">想いを、<br>動き出す力へ。</p><p class="card__desc">事業者と一緒に、未来を考える場所。</p><span class="card__arrow">詳しく見る ↗</span></a>
+          <a class="card" href="https://note.com/shima7ka" target="_blank" rel="noopener noreferrer" data-reveal><span class="card__label">note</span><p class="card__copy">想いを、<br>考え続ける。</p><p class="card__desc">日々の思考と気づきを綴る場所。</p><span class="card__arrow">読む ↗</span></a>
+          <a class="card" href="https://www.youtube.com/watch?v=3CiQ2dXTjLs" target="_blank" rel="noopener noreferrer" data-reveal><span class="card__label">YouTube</span><p class="card__copy">想いを、<br>語る。</p><p class="card__desc">声や表情とともに伝わる言葉。</p><span class="card__arrow">視聴する ↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section--large" aria-labelledby="changes-title">
+      <div class="copy" style="text-align:center;margin-bottom:clamp(100px,15vw,200px)" data-reveal>
+        <p class="eyebrow">Changes</p>
+        <h2 id="changes-title" class="lead">人は、<br>答えをもらったから<br>動き出すのではない。</h2>
+        <p class="lead" style="margin-top:64px">自分の中にある答えを、<br>見つけられたとき、<br>人は動き出す。</p>
+      </div>
+      <div class="shell changes">
+        <article class="change"><div class="change__text" data-reveal><h3 class="lead">考えているのに、<br>前へ進めない。</h3><p class="change__after">話しているうちに、考えていたことが、少しずつ整理されていく。</p></div><figure class="photo" data-reveal><img src="表彰台.png" alt="会場で参加者へ語りかける島中星輝" width="456" height="602" loading="lazy"></figure></article>
+        <article class="change change--text-only"><div class="change__text" data-reveal><h3 class="lead">想いはある。</h3><p class="change__after">伝わる形になると、人は動き出す。</p></div></article>
+        <article class="change"><div class="change__text" data-reveal><h3 class="lead">一人では、<br>見えない景色があります。</h3><p class="change__after">一緒に考えることで、見えてくるものがあります。</p></div><figure class="photo" data-reveal><img src="賞.png" alt="表彰の場で穏やかに微笑む島中星輝" width="709" height="569" loading="lazy"></figure></article>
+      </div>
+    </section>
+
+    <section class="section cta" aria-labelledby="talk-title">
+      <div class="cta__inner" data-reveal>
+        <div class="cta__lines">
+          <h2 id="talk-title" class="lead">一人で考える時間も、<br>大切です。</h2>
+          <p class="lead">でも、<br>誰かと話すことで、<br>見えてくることもあります。</p>
+          <p class="lead">もし今、<br>整理しきれない想いがあるなら。</p>
+        </div>
+        <a class="btn" href="https://shimanakaseiki.com/contact/" target="_blank" rel="noopener noreferrer">話しながら考えてみませんか。</a>
+        <a class="sub-link" href="https://shimanakaseiki.com/contact/" target="_blank" rel="noopener noreferrer">株式会社BRINGのお問い合わせフォームへ ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer__inner">
+      <div class="footer__brand"><p class="footer__name">SEIKI SHIMANAKA</p><p class="footer__tag">From Thought to Action.</p></div>
+      <nav class="footer__links" aria-label="関連リンク"><a href="https://www.amazon.co.jp/dp/B0GVTHNKLZ" target="_blank" rel="noopener noreferrer">Book</a><a href="https://shimanakaseiki.com/about/" target="_blank" rel="noopener noreferrer">株式会社BRING</a><a href="https://yorozu-miyazaki.go.jp/coordinator/147.html" target="_blank" rel="noopener noreferrer">宮崎県よろず支援拠点</a><a href="https://note.com/shima7ka" target="_blank" rel="noopener noreferrer">note</a><a href="https://www.youtube.com/watch?v=3CiQ2dXTjLs" target="_blank" rel="noopener noreferrer">YouTube</a></nav>
+    </div>
+  </footer>
+
+
+  <button class="save-fab" type="button" aria-label="保存オプションを開く" aria-haspopup="dialog" aria-controls="save-dialog">SAVE</button>
+
+  <div class="save-overlay" id="save-dialog" role="dialog" aria-modal="true" aria-labelledby="save-title" hidden>
+    <div class="save-modal" role="document">
+      <button class="save-modal__close" type="button" aria-label="閉じる">×</button>
+      <h2 class="save-modal__title" id="save-title">このページを保存・共有</h2>
+      <p class="save-modal__intro">あとでゆっくり読み返せるように、使いやすい方法を選んでください。</p>
+      <div class="save-actions">
+        <button class="save-action" type="button" data-save-action="copy"><span class="save-action__icon" aria-hidden="true">⌁</span><span><span class="save-action__label">リンクをコピー</span><span class="save-action__note">このページのURLをコピーします</span></span><span class="save-action__arrow" aria-hidden="true">→</span></button>
+        <button class="save-action" type="button" data-save-action="share"><span class="save-action__icon" aria-hidden="true">↗</span><span><span class="save-action__label">サイトを共有</span><span class="save-action__note">スマートフォンの共有画面を開きます</span></span><span class="save-action__arrow" aria-hidden="true">→</span></button>
+        <button class="save-action" type="button" data-save-action="bookmark"><span class="save-action__icon" aria-hidden="true">☆</span><span><span class="save-action__label">お気に入りに保存</span><span class="save-action__note">ブラウザのブックマーク方法を表示します</span></span><span class="save-action__arrow" aria-hidden="true">→</span></button>
+        <button class="save-action" type="button" data-save-action="home"><span class="save-action__icon" aria-hidden="true">＋</span><span><span class="save-action__label">ホーム画面に追加</span><span class="save-action__note">スマートフォンに追加する手順を表示します</span></span><span class="save-action__arrow" aria-hidden="true">→</span></button>
+        <button class="save-action" type="button" data-save-action="print"><span class="save-action__icon" aria-hidden="true">↓</span><span><span class="save-action__label">PDFとして保存</span><span class="save-action__note">印刷画面からPDF保存できます</span></span><span class="save-action__arrow" aria-hidden="true">→</span></button>
+      </div>
+      <div class="save-help" aria-live="polite"></div>
+    </div>
+  </div>
+  <div class="save-toast" role="status" aria-live="polite">リンクをコピーしました。</div>
+
+  <script>
+    const items=[...document.querySelectorAll('[data-reveal]')];
+    if('IntersectionObserver' in window){
+      const observer=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-visible');observer.unobserve(entry.target)}})},{threshold:.16,rootMargin:'0px 0px -6%'});
+      items.forEach(el=>observer.observe(el));
+    }else{items.forEach(el=>el.classList.add('is-visible'))}
+
+    const saveFab=document.querySelector('.save-fab');
+    const saveOverlay=document.querySelector('.save-overlay');
+    const saveModal=document.querySelector('.save-modal');
+    const saveClose=document.querySelector('.save-modal__close');
+    const saveHelp=document.querySelector('.save-help');
+    const saveToast=document.querySelector('.save-toast');
+    let lastFocused=null;
+
+    const showSaveButton=()=>saveFab.classList.toggle('is-visible',window.scrollY>180);
+    showSaveButton();
+    window.addEventListener('scroll',showSaveButton,{passive:true});
+
+    function openSave(){
+      lastFocused=document.activeElement;
+      saveOverlay.hidden=false;
+      requestAnimationFrame(()=>saveOverlay.classList.add('is-open'));
+      document.body.classList.add('modal-open');
+      saveHelp.classList.remove('is-visible');
+      saveHelp.textContent='';
+      setTimeout(()=>saveClose.focus(),50);
+    }
+    function closeSave(){
+      saveOverlay.classList.remove('is-open');
+      document.body.classList.remove('modal-open');
+      setTimeout(()=>{saveOverlay.hidden=true;(lastFocused||saveFab).focus()},250);
+    }
+    function toast(message){
+      saveToast.textContent=message;
+      saveToast.classList.add('is-visible');
+      setTimeout(()=>saveToast.classList.remove('is-visible'),2200);
+    }
+    async function copyLink(){
+      try{await navigator.clipboard.writeText(location.href);toast('リンクをコピーしました。')}
+      catch{const ta=document.createElement('textarea');ta.value=location.href;document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove();toast('リンクをコピーしました。')}
+    }
+    function showHelp(html){saveHelp.innerHTML=html;saveHelp.classList.add('is-visible');saveHelp.scrollIntoView({behavior:'smooth',block:'nearest'})}
+
+    saveFab.addEventListener('click',openSave);
+    saveClose.addEventListener('click',closeSave);
+    saveOverlay.addEventListener('click',e=>{if(e.target===saveOverlay)closeSave()});
+    document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!saveOverlay.hidden)closeSave()});
+    saveModal.addEventListener('keydown',e=>{
+      if(e.key!=='Tab')return;
+      const focusable=[...saveModal.querySelectorAll('button,[href],[tabindex]:not([tabindex="-1"])')];
+      const first=focusable[0],last=focusable[focusable.length-1];
+      if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}
+      else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}
+    });
+
+    document.querySelectorAll('[data-save-action]').forEach(btn=>btn.addEventListener('click',async()=>{
+      const action=btn.dataset.saveAction;
+      if(action==='copy')await copyLink();
+      if(action==='share'){
+        if(navigator.share){try{await navigator.share({title:document.title,text:'島中星輝｜From Thought to Action.',url:location.href})}catch(err){if(err.name!=='AbortError')await copyLink()}}
+        else await copyLink();
+      }
+      if(action==='bookmark')showHelp(/Mac|iPhone|iPad/.test(navigator.platform)?'<strong>お気に入りへの保存</strong><br>Macは <kbd>⌘</kbd> + <kbd>D</kbd>。iPhone・iPadはSafariの共有ボタンから「お気に入りに追加」を選んでください。':'<strong>お気に入りへの保存</strong><br>パソコンは <kbd>Ctrl</kbd> + <kbd>D</kbd>。スマートフォンはブラウザのメニューから「ブックマーク」または「お気に入り」を選んでください。');
+      if(action==='home')showHelp(/iPhone|iPad|iPod/.test(navigator.userAgent)?'<strong>ホーム画面に追加</strong><br>Safari下部の共有ボタンを押し、「ホーム画面に追加」を選んでください。':'<strong>ホーム画面に追加</strong><br>ブラウザ右上のメニューを開き、「ホーム画面に追加」または「アプリをインストール」を選んでください。');
+      if(action==='print')window.print();
+    }));
+
+  </script>
+</body>
+</html>
